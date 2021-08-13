@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+
+body {
+    width: 99%;
+    height: 800px;
+    padding: 0%;
+    margin: 2%;
+    border: 0%;
+    background-color: rgb(244, 244, 244) ;
+    font-family: 'Zilla Slab', serif;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25); */
+    position: relative;
+    top: 40px;
+
+}
+
+.skilld {
+    border-radius: 200px ;    
+    background-color: rgba(69, 71, 69, 0.842) ;
+    text-align: center;
+    align-content: center;
+    width: max-content;
+    padding: 5%;
+    position: relative;
+    
+}
+
+.country {
+    top: px;
+}
+
+.snr1 {
+    top: -1000px;
+}
+
+
+.whole {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "about about pic pic" "exp skill pic pic"; 
+    margin: 2%;
+    height: 790px;
+}
+
+.exp {
+    grid-area: exp;
+    margin-left: 4%;
+    height: 553px;
+    
+    
+}
+
+h5 {
+    border: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.exp p {
+    position: relative;
+    top: ;
+    margin: 0%;
+    padding: 0%;
+}
+
+span {
+    position: relative;
+    top: ;
+}
+
+
+.about {
+    grid-area: about;
+    text-align: justify;
+    margin: 3%;
+    height: 237px;
+}
+
+.pic {
+    grid-area: pic;
+    background-image: url(/web/assets/images/programmer-3.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+.skill {
+    
+    display: flex;
+    
+    align-items: left;
+    flex-direction: column;
+    height: 553px;
+    
+    
+}
+
+.number1 {
+    display: flex;
+    gap: 10px;
+}
+
+.number2 {
+    display: flex;
+    gap: 10px;
+}
+
+.number3 {
+    display: flex;
+    gap: 10px;
+}
